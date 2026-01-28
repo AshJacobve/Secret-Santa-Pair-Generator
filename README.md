@@ -1,4 +1,5 @@
 # Secret Santa Generator 🎅
+<img width="2851" height="1499" alt="image" src="https://github.com/user-attachments/assets/02eb8cb8-bf6b-4b15-b8d3-737e7f9cee28" />
 
 A modern, easy-to-use web application that creates Secret Santa pairs and sends notifications to participants via email.
 
@@ -78,7 +79,7 @@ npm start
 1. Click "Add Participant" to add more people to your Secret Santa group
 2. Enter each person's name and Gmail address
 3. A minimum of 3 participants is required
-4. You can remove participants by clicking the trash icon (if more than 1 remains)
+4. You can remove participants by clicking the trash icon
 
 ### Creating Pairs
 
@@ -89,7 +90,7 @@ npm start
 
 ### Sending Notifications
 
-1. Review the created pairs to ensure they look correct
+1. Review the created pairs to ensure they look correct or ignore if you are a participant
 2. Click "Send Emails to Participants"
 3. Each participant will receive an email with:
    - A festive Secret Santa notification
@@ -201,15 +202,6 @@ You can modify `/app/api/send-emails/route.ts` to use:
 - AWS SES
 - Any other email service
 
-## Security Considerations
-
-⚠️ **Important:**
-
-1. **Never commit `.env.local`** - Add it to `.gitignore` (already done)
-2. **App Passwords** are safer than account passwords
-3. **Consider using** a dedicated Gmail account for your app
-4. **In production**, use OAuth2 instead of storing credentials
-5. **Email validation** ensures only Gmail addresses are used
 
 ## Customization
 
@@ -283,3 +275,4 @@ For issues or questions, please open an issue or contact support.
 ---
 
 **Enjoy creating magical Secret Santa moments! 🎁✨**
+
